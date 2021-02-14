@@ -151,8 +151,6 @@ searchBtn.addEventListener('click', function () {
   getImages(search.value)
   sliders.length = 0;
   toggleCount(false);
-  imagesArea.style.display = 'none';
-  document.querySelector('.main').style.display = 'block';
 })
 
 sliderBtn.addEventListener('click', function () {
